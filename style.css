@@ -1,0 +1,117 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: #F0EBF8;
+
+}
+/* Main container */
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #202124;
+}
+.container .hey input{
+    width: 100%;
+    font-size: medium;
+    max-width: 600px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+    
+}
+.container p{
+    margin-bottom: 15px;
+}
+.container2{
+    /* background-color: #6200EA; */
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 0px;
+    border-radius: 10px;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+    color: #202124;
+}
+/* Header section */
+.header h1 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.header p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Form styling */
+.form label {
+    display: block;
+    font-weight: bold;
+    /* margin: 10px 0 5px; */
+}
+
+.form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+}
+
+.form hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+.form p {
+    margin: 15px 0;
+}
+
+/* Radio button options */
+.options label {
+    display: block;
+    font-weight: normal;
+    padding: 5px 0;
+}
+
+/* Text area */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+    resize: vertical;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6200EA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5c00d2;
+}
